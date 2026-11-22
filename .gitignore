@@ -1,0 +1,48 @@
+# Asistentes de IA y configuración local de IDEs
+.claude/
+CLAUDE.md
+.cursor/
+.cursorrules
+.windsurf/
+.antigravity/
+.gemini/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo y archivos temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Secretos y bases de datos locales
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Python / FastAPI
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Vite / React / Expo
+node_modules/
+dist/
+build/
+.expo/
+
+# PlatformIO / Arduino / ESP32
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
